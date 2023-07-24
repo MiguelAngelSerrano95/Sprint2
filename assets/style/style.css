@@ -3,6 +3,7 @@
     padding: 0rem;
 }
 body{
+   
     background-color: #e69db0;
 }
 header{
@@ -466,7 +467,7 @@ form label,p,input,select{
        }
     }
 
-    @media( min-width:768px ) and (max-width: 1024px) 
+    @media( min-width:768px ) and (max-width: 1023px) 
     {
         header{
             width: 100%;
@@ -592,6 +593,38 @@ form label,p,input,select{
             gap: 1;
         }
 
+    }
+
+    @media(min-width:1024px){
+
+        header{
+            width: 100%;
+        }
+
+        a {
+            font-size: 1.1rem;
+        }
+        .bannersnowycream{
+           width: 100%;
+        }
+
+       footer{
+        height: 4rem;
+       }
+       .contactsnowycream{
+        margin-bottom: 8.5rem;
+       }
+
+       table{
+        margin-bottom: 6rem;
+       }
+       .benefitsandtipssnowycream img{
+        margin-bottom: 0.8rem;
+       }
+
+       form{
+        margin-bottom: 2rem;
+       }
     }
 
     
